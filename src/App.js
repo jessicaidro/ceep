@@ -1,6 +1,10 @@
 function App() {
     return ( 
-    <h1 > oi </h1>
+    <form>
+        <input type="text" placeholder="Titulo"/>
+        <textarea placeholder="Escreva sua nota"/>
+        <button type="submit">Criar nota</button>
+    </form>
     );
 }
 
