@@ -1,10 +1,14 @@
+import { ListaDeNotas } from './components/ListaDeNotas' 
 function App() {
     return ( 
-    <form>
-        <input type="text" placeholder="Titulo"/>
-        <textarea placeholder="Escreva sua nota"/>
-        <button type="submit">Criar nota</button>
-    </form>
+        <section>
+            <form>
+                <input type="text" placeholder="Título"/>
+                <textarea placeholder="Escreva sua nota"/>
+                <button type="submit">Criar nota</button>
+            </form>
+            <ListaDeNotas/>
+    </section>
     );
 }
 
