@@ -4,10 +4,7 @@ import CardNota from "../CardNota/CardNota";
 import "./estilo.css"
 
 export  class ListaDeNotas extends Component {
-  apagar(){
-    const indice = this.props.indice;
-    this.props.apagarNota(indice);
-  }
+  
    render(){
        return (
         <ul className="lista-notas">
